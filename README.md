@@ -40,11 +40,11 @@ Objective: This program aims to perform sentiment analysis on a dataset of tweet
   
 ## Sources
 - **Dataset Sources:**
-- ANIL. (2023, March 25). Twitter Sentiment Analysis for ChatGPT. _Kaggle_. [Link](https://www.kaggle.com/code/sanlian/twitter-sentiment-analysis-for-chatgpt)
+	- ANIL. (2023, March 25). Twitter Sentiment Analysis for ChatGPT. _Kaggle_. [Link](https://www.kaggle.com/code/sanlian/twitter-sentiment-analysis-for-chatgpt)
 - **References:**
-- Taecharungroj, V. (2023, February 16). “What Can ChatGPT Do?” Analyzing Early Reactions to the Innovative AI Chatbot on Twitter. _Big Data and Cognitive Computing_; MDPI. [DOI](https://doi.org/10.3390/bdcc7010035)
-- Blei, D. M., Ng, A. Y., & Jordan, M. I. (2003, January). Latent Dirichlet Allocation - Journal of Machine Learning Research. _Latent Dirichlet Allocation_. [PDF](https://jmlr.org/papers/volume3/blei03a/blei03a.pdf)
-- GeeksforGeeks. (2023, April 6). What is sentiment analysis?. _GeeksforGeeks_. [Link](https://www.geeksforgeeks.org/what-is-sentiment-analysis/)
-- Sahagian, G. (2021, April 13). What NLP Library you should use for your sentimental analysis project. _Medium_. [Article](https://medium.com/geekculture/what-nlp-library-you-should-use-for-your-sentimental-analysis-project-bef6b357a6db)
+	- Taecharungroj, V. (2023, February 16). “What Can ChatGPT Do?” Analyzing Early Reactions to the Innovative AI Chatbot on Twitter. _Big Data and Cognitive Computing_; MDPI. [DOI](https://doi.org/10.3390/bdcc7010035)
+	- Blei, D. M., Ng, A. Y., & Jordan, M. I. (2003, January). Latent Dirichlet Allocation - Journal of Machine Learning Research. _Latent Dirichlet Allocation_. [PDF](https://jmlr.org/papers/volume3/blei03a/blei03a.pdf)
+	- GeeksforGeeks. (2023, April 6). What is sentiment analysis?. _GeeksforGeeks_. [Link](https://www.geeksforgeeks.org/what-is-sentiment-analysis/)
+	- Sahagian, G. (2021, April 13). What NLP Library you should use for your sentimental analysis project. _Medium_. [Article](https://medium.com/geekculture/what-nlp-library-you-should-use-for-your-sentimental-analysis-project-bef6b357a6db)
 
 
