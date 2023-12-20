@@ -1,60 +1,50 @@
-# ChatGPT-Sentiment-Analysis
+# ChatGPT Sentiment Analysis Project
 
-Introduction:
-    This program aims to perform sentiment analysis on a dataset of tweets. It uses various natural language processing techniques and pre-trained models to analyze the sentiment of the tweets and generate insights. The program includes data preprocessing, sentiment analysis using different libraries, visualization of results, and comparison of sentiment scores from different models.
+## Project Overview
+- **Title:** ChatGPT Sentiment Analysis
+- **Authors:** Mitchell Breeden, Rock Chan, Brian Monter, Eliza Punnoose
+- **Course:** AIT-526-007
+- **Institution:** George Mason University
+- **Date:** July 10, 2023
 
-Outline of Solution:
+## Project Description
+Objective: This program aims to perform sentiment analysis on a dataset of tweets. It uses various natural language processing techniques and pre-trained models to analyze the sentiment of the tweets and generate insights. The program includes data preprocessing, sentiment analysis using different libraries, visualization of results, and comparison of sentiment scores from different models.
 
-    Installation:
-        Ensure that Python is installed on your system (version 3.6 or higher).
-        Install the required packages by running the following commands:
-        !pip install emoji --upgrade
-        !pip install TextBlob
-        !pip install autocorrect
-        !pip install pyspellchecker
-        !pip install tweet-preprocessor
-        !pip install transformers
-        !pip3 install torch torchvision
-        !pip install xformers
-        !pip install pattern
-        !pip install pandas
-        !pip install nltk
-        !pip install numpy
-        !pip install string
-        !pip install emoji
-        !pip install textblob
-        !pip install wordcloud
-        !pip install matplotlib
+## Data Sources
+- `chatgpt-tweets-data-20230310-20230322.csv`: Dataset used for sentiment analysis, containing tweets data.
 
-    Dataset:
-        The dataset used for sentiment analysis is stored in a CSV file, "chatgpt-tweets-data-20230310-20230322.csv".
-        
-    Running the Program:
-        Open the code file "FinalProject 20230714 0322.ipynb" in a Python environment (e.g., Jupyter Notebook, Google Colab).
-        Execute each code cell in sequence.
-        The program will install the required packages, load the dataset, perform data preprocessing, sentiment analysis, and generate visualizations.
-        The final results and visualizations will be displayed in the output.
-    
-    Example Input and Output:
-        Input: CSV file containing tweets data
-        Output: Sentiment analysis results, word clouds, bar charts, scatter plots, and comparison of sentiment scores from different models.
-    
-    Setup and Execution:
-        Download the code file "FinalProject 20230714 0322.ipynb".
-        Open the code file in a Python environment (e.g., Jupyter Notebook, Google Colab).
-        Upload the dataset file ("chatgpt-tweets-data-20230310-20230322.csv") to the same directory as the code file.
-        Execute each code cell in sequence by running them one by one.
-        The program will generate the results and visualizations, which will be displayed in the output.
-    
-    Dataset Link:
-        The dataset used in this program can be found at the following link:
-        https://www.kaggle.com/datasets/sanlian/tweets-about-chatgpt-march-2023/download?datasetVersionNumber=2
-    
-    Additional Information:
-	If given AttributeError: module 'preprocessor' has no attribute 'clean', please complete these steps:
-		pip uninstall preprocessor
-		pip uninstall tweet-preprocessor
-		pip install tweet-preprocessor
+## Methodology
+- **Tools Used:** Python, Jupyter Notebook, Pandas, TextBlob, autocorrect, pyspellchecker, tweet-preprocessor, transformers, torch, xformers, pattern, numpy, string, emoji, matplotlib, wordcloud.
+- **Features:** Sentiment analysis of tweets, visualization of sentiment trends.
+- **Approach:** Data preprocessing, analysis using different libraries, visualization, and comparison of sentiment scores.
+- **Notes:** If given AttributeError: module 'preprocessor' has no attribute 'clean', please complete these steps:  
+	- pip uninstall preprocessor  
+	- pip uninstall tweet-preprocessor  
+	- pip install tweet-preprocessor  
 
-        The code file includes comments explaining the purpose of each code block and function.
-        Enjoy analyzing sentiment in tweets using this program!
+## Results and Conclusions
+- Insights into sentiment trends in tweets.
+- Visualization of sentiment analysis results using word clouds, bar charts, scatter plots, and comparisons of different models.
+
+## Additional Resources
+- `Script.ipynb`: Python Jupyter Notebook for analysis.
+- `Presentation.pptx`: Overview of project findings.
+- `Report.pdf`: Detailed project report.
+
+## Contact Information
+- Mitchell Breeden, Student, George Mason University.
+- Email: breedenmitch@gmail.com
+  
+## Acknowledgments
+- Maryam Heidari, Course Instructor.
+  
+## Sources
+- **Dataset Sources:**
+- ANIL. (2023, March 25). Twitter Sentiment Analysis for ChatGPT. _Kaggle_. [Link](https://www.kaggle.com/code/sanlian/twitter-sentiment-analysis-for-chatgpt)
+- **References:**
+- Taecharungroj, V. (2023, February 16). “What Can ChatGPT Do?” Analyzing Early Reactions to the Innovative AI Chatbot on Twitter. _Big Data and Cognitive Computing_; MDPI. [DOI](https://doi.org/10.3390/bdcc7010035)
+- Blei, D. M., Ng, A. Y., & Jordan, M. I. (2003, January). Latent Dirichlet Allocation - Journal of Machine Learning Research. _Latent Dirichlet Allocation_. [PDF](https://jmlr.org/papers/volume3/blei03a/blei03a.pdf)
+- GeeksforGeeks. (2023, April 6). What is sentiment analysis?. _GeeksforGeeks_. [Link](https://www.geeksforgeeks.org/what-is-sentiment-analysis/)
+- Sahagian, G. (2021, April 13). What NLP Library you should use for your sentimental analysis project. _Medium_. [Article](https://medium.com/geekculture/what-nlp-library-you-should-use-for-your-sentimental-analysis-project-bef6b357a6db)
+
+
